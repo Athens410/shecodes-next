@@ -37,7 +37,23 @@ button {
     border: none;
     outline: none;
 }
-
+.second-link:hover {
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    color: rgb(160, 250, 216);
+}
+.primary-link {
+    background-color: rgb(241, 57, 186);
+    border-radius: 12px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+}
 .img-fluid img{
     border-radius: 100px;
 }
@@ -100,26 +116,4 @@ button {
 .navbar-brand{
 color: #f5f2fe !important;
 }
-.button-container button a {
-    background-color: transparent;
-}
-.second-link button{
-    display: inline-block;
-    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
-    border-radius: 12px;
-    color: rgb(255, 255, 255);
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    margin: 4px;
-    cursor: pointer;
-    box-shadow: var(--box-shadow);
-    border: none;
-    outline: none;
-}
 
-.second-link:hover {
-    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
-    color: rgb(160, 250, 216);
-}
