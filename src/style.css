@@ -41,6 +41,7 @@ button {
     background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
     color: rgb(160, 250, 216);
 }
+
 .primary-link {
     background-color: rgb(241, 57, 186);
     border-radius: 12px;
@@ -116,4 +117,14 @@ button {
 .navbar-brand{
 color: #f5f2fe !important;
 }
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
 
+.img-thumbnail {
+    max-width: 100%;
+    height: auto;
+}
