@@ -122,9 +122,40 @@ color: #f5f2fe !important;
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin-right: 100px;
+   
 }
 
 .img-thumbnail {
-    max-width: 100%;
+    max-width: 50%;
     height: auto;
+  display: block;
+  align-self: center;
+}
+.text-center{
+    margin-top: 99px;
+}
+.btn {
+    background-color: #ae30f7;
+    color: #f5f2fe;
+    margin: 33px;
+}
+.btn:hover{
+    background-color: rgb(0, 255, 94);
+}
+.stays {
+   justify-content: center;
+    font-family: 'Red Hat Display',
+            sans-serif;
+    
+        color: #ffffff;
+        padding: 33px;
+        margin: 55px;
+}
+.red{
+font-family: 'Red Hat Display',
+        sans-serif;
+        padding: 22px;
+  text-align: center;
+
 }
