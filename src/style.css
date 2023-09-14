@@ -1,7 +1,11 @@
-       
+  :root {
+      --primary-color: #f9bafb;
+      --secondary-color: #f5f2fe;
+      --box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  }
 body{
 
-background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(127, 39, 249) 33.1%, rgb(90, 12, 235) 90%);
 
        }
        
@@ -17,4 +21,105 @@ button {
     justify-content: center;
 }
 
+.second-link {
+    display: inline-block;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    border-radius: 12px;
+    
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    border: none;
+    outline: none;
+}
 
+.img-fluid img{
+    border-radius: 100px;
+}
+.rue {
+    font-size: small;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: rgb(255, 255, 255);
+}
+.stay{
+    font-family: 'Red Hat Display',
+            sans-serif;
+    
+   color: #f5f2fe;
+}
+.mb-3{
+    font-family: 'Red Hat Display',
+            sans-serif;
+    
+        color: #f5f2fe;
+}
+.col-md-6{
+    border-radius: 66px;
+}
+ .second {
+     text-align: center;
+     
+     color: rgb(255, 255, 255);
+     font-family: 'Red Hat Display',
+         sans-serif;
+ }
+ .fort{
+    margin-top: 111px;
+ }
+ .dot{
+    margin-top: 244px;
+    padding: 22px;
+ }
+  .fa-brands {
+      color: #fa71cd;
+  }
+  .fa-brands:hover{
+    color:rgb(0, 255, 94) ;
+  }
+
+  .blu {
+      text-decoration: none;
+  }
+  .name{
+    color: #fa71cd;
+    text-decoration: none;
+  }
+
+  .name:hover {
+      color: rgb(0, 255, 94);
+  }
+.navbar-nav>.nav-item>.nav-link {
+    color: white !important;
+}
+.navbar-brand{
+color: #f5f2fe !important;
+}
+.button-container button a {
+    background-color: transparent;
+}
+.second-link button{
+    display: inline-block;
+    background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+    border-radius: 12px;
+    color: rgb(255, 255, 255);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px;
+    cursor: pointer;
+    box-shadow: var(--box-shadow);
+    border: none;
+    outline: none;
+}
+
+.second-link:hover {
+    background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
+    color: rgb(160, 250, 216);
+}
