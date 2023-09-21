@@ -159,12 +159,8 @@ font-family: 'Red Hat Display',
   text-align: center;
 
 }
+.imgs{
 
-.col-6.d-flex {
-    flex-direction: column;
-    margin-right: 122px;
-    max-width: 30%;
-}
-.container.img{
-    max-width: 30%;
+
+
 }
