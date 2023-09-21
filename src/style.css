@@ -67,8 +67,8 @@ button {
 .stay{
     font-family: 'Red Hat Display',
             sans-serif;
-    
-   color: #f5f2fe;
+   
+   color: #ffffff;
 }
 .mb-3{
     font-family: 'Red Hat Display',
@@ -159,8 +159,11 @@ font-family: 'Red Hat Display',
   text-align: center;
 
 }
-.imgs{
 
 
+img.center{
 
+    max-width: 100%;
+        max-height: 100%;
+   
 }
