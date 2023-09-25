@@ -19,13 +19,19 @@ button {
 .button-container {
     display: flex;
     justify-content: center;
+    text-decoration: none;
+}
+
+.button-container button {
+    background: none;
+    border: none;
+    padding: 0;
 }
 
 .second-link {
     display: inline-block;
     background: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
     border-radius: 12px;
-    
     color: rgb(255, 255, 255);
     padding: 15px 32px;
     text-align: center;
@@ -37,6 +43,7 @@ button {
     border: none;
     outline: none;
 }
+
 .second-link:hover {
     background: linear-gradient(to right, rgb(182, 244, 146), rgb(51, 139, 147));
     color: rgb(160, 250, 216);
