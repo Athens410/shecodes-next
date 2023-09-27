@@ -167,4 +167,9 @@ font-family: 'Red Hat Display',
   text-align: center;
 
 }
+.red {
+
+    color: rgb(255, 255, 255);
+    padding: 66px;
+}
 
